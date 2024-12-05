@@ -1,0 +1,22 @@
+{
+  "name": "observability",
+  "version": "1.0.0",
+  "description": "This is my first attempt at a Node.js app that uses OpenTelemetry and Jaeger for metrics, tracing and logs. The objective is to implement obseravbility within the backend of my app and analyze telemetry data to understand the system performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-jaeger": "^1.29.0",
+    "@opentelemetry/instrumentation-http": "^0.56.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.50.0",
+    "@opentelemetry/sdk-trace-node": "^1.29.0",
+    "express": "^4.21.1",
+    "mongodb": "^4.3.1",
+    "opentelemetry-instrumentation-express": "^0.41.0"
+  }
+}
