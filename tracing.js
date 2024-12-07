@@ -1,4 +1,3 @@
-Heres the one I used with a peer that helped me work out
 const { Resource } = require("@opentelemetry/resources");
 const { SemanticResourceAttributes } = require("@opentelemetry/semantic-conventions");
 const { SimpleSpanProcessor } = require("@opentelemetry/sdk-trace-base");
